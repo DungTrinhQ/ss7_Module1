@@ -1,0 +1,11 @@
+let a, b, c;
+a=prompt('Nhap diem VatLy');
+a=Number.parseFloat(a);
+b=prompt('Nhap diem Hoahoc');
+b=Number.parseFloat(b);
+c=prompt('Nhap diem SinhHoc');
+c=Number.parseFloat(c);
+let tong= a +b +c;
+let tb=(a+b+c)/3;
+alert('Tong diem'+ tong);
+alert('Diem trung binh'+ tb);

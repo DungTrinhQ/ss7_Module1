@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="doitien.js"></script>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+    </tr>
+    <tr>
+        <td><input id="sotien" type="text" value=""></td>
+        <td><select id="chon">
+            <option value="VND">VND</option>
+            <option value="USD">USD</option>
+        </select></td>
+        <td><select id="chon1">
+            <option value="USD">USD</option>
+            <option value="VND">VND</option>
+        </select></td>
+        <td>
+            <input type="button" value="Convert" onclick="convertC()">
+        </td>
+    </tr>
+    <tr>
+        <td style ="color: #0000FF" id="result"></td>
+    </tr>
+</table>
+
+</body>
+</html>

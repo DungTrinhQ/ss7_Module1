@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiem tra xem a co chia het cho b hay k</title>
+    <script>
+        function kiemTra(){
+            var a, b, c;
+            a = prompt("Nhap a =");
+            a = Number.parseFloat(a);
+
+            b = prompt("Nhap b =");
+            b = Number.parseFloat(b);
+
+            c = a % b;
+            if (c==0)
+                alert('a chia het cho b');
+            else
+                alert('a khong chia het cho b');}
+    </script>
+</head>
+<body>
+<button onclick="kiemTra()">Kiem tra</button>
+
+</body>
+</html>
